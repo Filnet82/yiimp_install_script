@@ -48,8 +48,10 @@ sudo cp -r nginx_confs/letsencrypt.conf /etc/nginx/yiimpool
 
 # Removing default nginx site configs.
 sudo rm -r /etc/nginx/conf.d/default.conf
-sudo rm -r /etc/nginx/sites-enabled/default*
-sudo rm -r /etc/nginx/sites-available/default*
+# sudo rm -r /etc/nginx/sites-enabled/default*
+# sudo rm -r /etc/nginx/sites-available/default*
+sudo mkdir -p /etc/nginx/sites-enabled
+sudo mkdir -p /etc/nginx/sites-available
 
 echo -e "$GREEN NGINX upgrade complete.$COL_RESET"
 restart_service nginx
