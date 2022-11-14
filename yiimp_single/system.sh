@@ -148,10 +148,10 @@ fi
 hide_output sudo apt-get update
 
 if [[ ("$DISTRO" == "18") ]]; then
-apt_install php7.4-fpm php7.4-opcache php7.4-fpm php7.4 php7.4-common php7.4-gd \
+apt install php7.4-fpm php7.4-opcache php7.4-fpm php7.4 php7.4-common php7.4-gd \
 php7.4-mysql php7.4-imap php7.4-cli php7.4-cgi \
 php-pear php-auth-sasl mcrypt imagemagick libruby \
-php7.4-curl php7.4-intl php7.4-pspell php7.4-recode php7.4-sqlite3 \
+php7.4-curl php7.4-intl php7.4-pspell php7.4-sqlite3 \
 php7.4-tidy php7.4-xmlrpc php7.4-xsl memcached php-memcache \
 php-imagick php-gettext php7.4-zip php7.4-mbstring \
 fail2ban ntpdate python3 python3-dev python3-pip \
@@ -163,10 +163,10 @@ automake cmake gnupg2 ca-certificates lsb-release nginx certbot libsodium-dev \
 libnghttp2-dev librtmp-dev libssh2-1 libssh2-1-dev libldap2-dev libidn11-dev libpsl-dev libkrb5-dev php7.4-memcache php7.4-memcached memcached \
 php8.1-mysql
 else
-apt_install php7.4-fpm php7.4-opcache php7.4-fpm php7.4 php7.4-common php7.4-gd \
+apt install php7.4-fpm php7.4-opcache php7.4-fpm php7.4 php7.4-common php7.4-gd \
 php7.4-mysql php7.4-imap php7.4-cli php7.4-cgi \
 php-pear php-auth-sasl mcrypt imagemagick libruby \
-php7.4-curl php7.4-intl php7.4-pspell php7.4-recode php7.4-sqlite3 \
+php7.4-curl php7.4-intl php7.4-pspell php7.4-sqlite3 \
 php7.4-tidy php7.4-xmlrpc php7.4-xsl memcached php-memcache \
 php-imagick php-gettext php7.4-zip php7.4-mbstring \
 fail2ban ntpdate python3 python3-dev python3-pip \
